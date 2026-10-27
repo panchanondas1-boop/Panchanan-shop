@@ -1,0 +1,1 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/>self.addEventListener('install',e=>{self.skipWaiting()});self.addEventListener('fetch',e=>{e.respondWith(fetch(e.request).catch(()=>caches.match(e.request)))});
